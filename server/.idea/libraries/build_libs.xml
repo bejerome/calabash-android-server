@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="build-libs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/instrumentation-backend/build-libs/junit.jar!/" />
+      <root url="jar://$PROJECT_DIR$/instrumentation-backend/build-libs/antlr-3.4-complete.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="libs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/instrumentation-backend/libs/robotium-solo-4.3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/instrumentation-backend/libs/uiautomator2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/instrumentation-backend/libs/InstrumentationExposed.jar!/" />
+      <root url="jar://$PROJECT_DIR$/instrumentation-backend/libs/maps.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
