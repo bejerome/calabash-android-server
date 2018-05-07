@@ -37,6 +37,17 @@ public class InstrumentationBackend {
 
     public static SoloEnhanced solo;
     public static Actions actions;
+    public static UiDevice uiDevice;
+    
+    public static UiDevice getUiDevice() {
+    if (instrumentation.getUiAutomation() == null) {
+        throw new NullPointerException("uiAutomation==null: did you forget to set '-w' flag for 'am instrument'?");
+    }
+    if(uiDevice == null) {
+        uiDevice = UiDevice.getInstance(instrumentation);
+    }
+    return uiDevice;
+    }
 
 
     public static synchronized void setDefaultCalabashAutomation(CalabashAutomation calabashAutomation) {
