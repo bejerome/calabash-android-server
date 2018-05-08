@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="CalabashApkBuilder">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/instrumentation-backend/CalabashApkBuilder.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -12,6 +12,7 @@ import android.app.Instrumentation;
 import android.content.Context;
 import android.content.pm.PackageManager;
 import android.location.LocationManager;
+import android.support.test.uiautomator.UiDevice;
 import android.util.Log;
 
 import com.jayway.android.robotium.solo.SoloEnhanced;
